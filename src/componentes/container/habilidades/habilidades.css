@@ -1,55 +1,23 @@
-.habilidades {
-    color: rgb(67, 146, 136);
-    font-family: 'Exo 2', sans-serif;
-    font-size: 32px;
-    text-align: center;
-}
-
-
-
-.titulos {
-    color: rgb(67, 146, 136);
-    font-family: 'Exo 2', sans-serif;
-    font-size: 25px;
-    margin-top: 60px;
-    margin-left: 13%;
-}
-
-
-.paragrafos {
-    font-family: 'Exo 2', sans-serif;
-    margin-left: 13%;
-    
-}
-
-
-
-.icone-habil {
-    margin-left: 70%;
-    font-size: 80px;
-    margin-top: -100px;
-}
-
-
-
-
-@media (max-width:768px) {
+@media screen and (max-width:768px) {
     .habilidades{
         font-size: 20px;
+        
     }
 
     .titulos{
         font-size: 15px;
+        margin-left: 22px;
     }
 
     .paragrafos{
         font-size: 10px;
+        margin-left: 22px;
     }
 
     .icone-habil{
         font-size: 32px;
         margin-top: -0px;
-        margin-left: 13%;
+        margin-left: 22px;
 
     }
 }
