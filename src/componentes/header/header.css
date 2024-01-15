@@ -1,0 +1,60 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 50px; 
+
+}
+
+div.menu {
+    display: flex;
+    justify-content: flex-end; 
+    margin-left: 30%; 
+    position: fixed;
+    top: 15px;
+    border-bottom: 1px  solid rgb(67, 146, 136);
+    padding-bottom: 8px;
+}
+
+
+nav.menu {
+    padding: 10px 15px;
+    
+}
+
+nav.menu:hover {
+    background-color: rgb(67, 146, 136);
+    border-radius: 35px ;
+    
+    
+    
+}
+
+
+
+a.menu{
+    text-decoration: none;
+    color: white;
+   
+  
+}
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .header {
+        flex-direction: column; 
+    }
+
+    div.menu {
+        
+        justify-content: center; 
+        font-size: 10px;
+        margin-left: 0%;
+    }
+  
+}
+

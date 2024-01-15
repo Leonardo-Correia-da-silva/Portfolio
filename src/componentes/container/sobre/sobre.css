@@ -1,0 +1,124 @@
+
+
+
+.sobre-titulo{
+    color: rgb(67, 146, 136);
+    text-align: center;    
+    font-family:'Exo 2', sans-serif; 
+    font-size: 32px;
+}
+
+
+
+
+
+
+.sobre-texto{
+    font-family: 'Exo 2', sans-serif;
+    font-size: 20px;
+    padding-left: 150px;
+    padding-top: 100px;
+    color: white;
+    overflow: hidden;
+    border-right: 0.15em srgb(67, 146, 136); /* Efeito de cursor piscando */
+    white-space: nowrap;
+    animation: digitar 5s steps(40, end); /* Ajustar conforme necessário para a velocidade de digitação */
+  }
+  
+  @keyframes digitar {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+    
+
+
+  .imagem-sobre {
+    width: 30%; 
+    height: 30%;
+    max-width: 300px; 
+    display: block;
+    margin-left: 0; 
+    margin-top: -25%;
+    position: relative;
+    animation: moverAparecer 5s linear forwards;
+  }
+  
+  @keyframes moverAparecer {
+    0% {
+      margin-left: 0; /* Posição inicial da imagem (esquerda) */
+      opacity: 1; /* Opacidade inicial (totalmente visível) */
+    }
+    50% {
+      margin-left: 70%; /* Metade da animação - movimento para a direita */
+      opacity: 0; /* Opacidade final (totalmente transparente) */
+    }
+    100% {
+      margin-left: 70%; /* Posição final da imagem a direita (ajustado) */
+      opacity: 0; /* Opacidade final (totalmente transparente) */
+    }
+  }
+  
+  
+  
+
+.imagem-eu {
+  width: 20%;
+  height: 20%;
+  max-width: 300px;
+  display: block;
+  margin-left: 70%;
+  margin-top: -20%;
+  opacity: 0; /* Inicia totalmente transparente */
+  animation: aparecer 1s ease-in-out 3.0s forwards;
+  border-radius: 50%; /* Torna a imagem redonda */
+  box-shadow: 0 0 200px rgba(67, 146, 136, 0.877); /* Cor e intensidade da luz */
+
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .sobre-texto {
+        font-size: 14px; 
+        padding-left: 5px; 
+        margin-top: -50px; 
+    }
+    .imagem-sobre {
+      margin-top: -35%;
+    }
+    .sobre-titulo {
+      
+      font-size: 20px;
+    }
+    .imagem-eu{
+      margin-left: 32%;
+      width: 35%;
+      margin-top: 15%;
+    }
+}
+
+
+

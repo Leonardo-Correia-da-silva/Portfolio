@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap,family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=Orbitron&display=swap');
+
+
+
+
+
+.nome{
+    color: white;
+    font-size: 60px;
+    padding-left: 200px;
+    margin-top: 100px;
+    font-family: 'Exo 2', sans-serif;
+    
+}
+
+
+.sou{
+    padding-left: 200px;
+    font-size: 30px;
+    font-family: monospace;
+    margin-top: -45px;
+    color: rgb(67, 146, 136);
+}
+
+
+
+@keyframes pulse {
+    0%, 100% {
+      transform: scale(1); 
+    }
+    50% {
+      transform: scale(0.8); 
+    }
+  }
+  
+  .icone {
+    font-size: 3em;
+    margin-right: -40px;
+    animation: pulse 2s infinite; 
+    padding-left: 72px;
+
+}
+  
+
+
+.resumo{
+    font-family: 'Exo 2', sans-serif;
+    font-size: 20px;
+    padding-left: 200px;
+    margin-top: 80px;
+    color: white;
+    
+}
+
+
+.in{
+    margin-left: 200px;
+     
+}
+
+
+
+
+.instagram{
+    margin-left: 250px;
+    margin-top: -30px;
+}
+
+
+
+.github{
+    margin-left: 300px;
+    margin-top: -33px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .apresentacao {
+        margin-left: -100px;
+    }
+
+    .nome, .sou, .resumo {
+        align-items: center;
+    }
+
+    .nome {
+        font-size: 30px; 
+        margin-top: 120px;
+    }
+
+    .sou {
+        font-size: 20px;
+        margin-top: -20px;
+    }
+
+    .resumo {
+        font-size: 16px;
+        margin-top: 50px;
+    }
+    .icone {
+        font-size: 2em; 
+        margin-right: -80px;
+        animation: pulse 2s infinite; 
+        padding-left: 80px;
+        
+    }
+  
+}
+
+
+@media screen and (max-width: 968px){
+    .box-icone{
+        margin-left: 13.5%;
+        
+    }
+}
+
+
+
+
