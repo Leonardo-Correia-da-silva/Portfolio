@@ -77,34 +77,42 @@
 
 @media screen and (max-width: 768px) {
 
-    .apresentacao {
-        margin-left: -100px;
-    }
-
-    .nome, .sou, .resumo {
-        align-items: center;
-    }
-
     .nome {
-        font-size: 30px; 
-        margin-top: 120px;
+        font-size: 35px; 
+        padding-left: 65px;
+        
     }
 
     .sou {
         font-size: 20px;
         margin-top: -20px;
+        padding-left: 65px;
     }
 
     .resumo {
         font-size: 16px;
         margin-top: 50px;
+        padding-left: 65px;
     }
     .icone {
         font-size: 2em; 
-        margin-right: -80px;
+        margin-right: -66px;
         animation: pulse 2s infinite; 
         padding-left: 80px;
         
+    }
+
+    .in{
+        margin-top: 20px;
+        margin-left: 65px;
+    }
+
+    .instagram{
+        margin-left: 120px;
+    }
+
+    .github{
+        margin-left: 175px;
     }
   
 }
@@ -112,10 +120,12 @@
 
 @media screen and (max-width: 968px){
     .box-icone{
-        margin-left: 13.5%;
+        margin-left: -8%;
+        
         
     }
 }
+
 
 
 
