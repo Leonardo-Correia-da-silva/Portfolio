@@ -1,4 +1,6 @@
 
+
+
 .sobre-titulo{
     color: rgb(67, 146, 136);
     text-align: center;    
@@ -73,7 +75,7 @@
   opacity: 0; /* Inicia totalmente transparente */
   animation: aparecer 1s ease-in-out 3.0s forwards;
   border-radius: 50%; /* Torna a imagem redonda */
-  box-shadow: 0 0 200px rgba(67, 146, 136, 0.877); /* Cor e intensidade da luz */
+  box-shadow: 0 0 200px rgb(67, 146, 136); /* Cor e intensidade da luz */
 
 }
 
@@ -85,6 +87,7 @@
     opacity: 1;
   }
 }
+
 
 
 
@@ -104,11 +107,15 @@
       
       font-size: 20px;
     }
-    .imagem-eu{
-      margin-left: 32%;
-      width: 35%;
-      margin-top: 15%;
-    }
+   
+}
+
+@media screen and (max-width: 700px){
+  .imagem-eu{
+    margin-left: 32%;
+    width: 35%;
+    margin-top: 15%;
+  }
 }
 
 
