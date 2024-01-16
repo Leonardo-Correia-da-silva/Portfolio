@@ -41,6 +41,10 @@
     padding-left: 72px;
 
 }
+
+.box-icone{
+    margin-left: 20px;
+}
   
 
 
@@ -75,28 +79,31 @@
 }
 
 
+
+
+
 @media screen and (max-width: 768px) {
 
     .nome {
         font-size: 35px; 
-        padding-left: 65px;
+        padding-left: 50px;
         
     }
 
     .sou {
         font-size: 20px;
         margin-top: -20px;
-        padding-left: 65px;
+        padding-left: 50px;
     }
 
     .resumo {
         font-size: 16px;
         margin-top: 50px;
-        padding-left: 65px;
+        padding-left: 50px;
     }
     .icone {
         font-size: 2em; 
-        margin-right: -66px;
+        margin-right: -75px;
         animation: pulse 2s infinite; 
         padding-left: 80px;
         
@@ -104,21 +111,22 @@
 
     .in{
         margin-top: 20px;
-        margin-left: 65px;
+        margin-left: 50px;
     }
 
     .instagram{
-        margin-left: 120px;
+        margin-left: 105px;
     }
 
     .github{
-        margin-left: 175px;
+        margin-left: 160px;
     }
+
   
 }
 
 
-@media screen and (max-width: 968px){
+@media screen and (max-width: 768px){
     .box-icone{
         margin-left: -8%;
         
