@@ -61,7 +61,7 @@
 .in{
     margin-left: 200px;
     box-shadow: 0 0 10px rgba(33, 226, 200, 0.8);
-    width: 30px;
+    width: 20px;
     padding: 5px 5px;
     border-radius: 10px;
 }
@@ -69,7 +69,7 @@
 .in:hover{
     background-color: rgb(67, 146, 136);
     border-radius: 10px ;
-    width: 32px;
+    width: 20px;
     padding: 5px 5px;
     
     
@@ -79,10 +79,10 @@
 
 
 .github{
-    margin-left: 267px;
-    margin-top: -44px;
+    margin-left: 250px;
+    margin-top: -34px;
     box-shadow: 0 0 10px rgba(33, 226, 200, 0.8);
-    width: 30px;
+    width: 20px;
     padding: 5px 5px;
     border-radius: 10px;
 }
@@ -90,7 +90,7 @@
 .github:hover{
     background-color: rgb(63, 131, 122);
     border-radius: 10px ;
-    width: 30px;
+    width: 20px;
     padding: 5px 5px;
     
     
@@ -131,12 +131,13 @@
         margin-top: 20px;
         margin-left: 50px;
         
+        
     }
 
    
 
     .github{
-        margin-left: 110px;
+        margin-left: 95px;
     }
 
    
@@ -152,7 +153,6 @@
         
     }
 }
-
 
 
 
