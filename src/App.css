@@ -41,17 +41,19 @@
 
  @media screen and (max-width: 1000px){
   .App-logo {
-    height: 30vmin; 
+    height: 35vmin; 
     
   }
  }
 
 
- @media screen and (max-width: 768px) {
+ @media screen and (max-width: 608px) {
   
 
   .animacao {
-    display: none; /* Oculta a animação em telas menores ou iguais a 768px */
+    margin-top: -200px;
+    margin-left: 20px;
+    opacity: 0.2;
   }
 }
 
