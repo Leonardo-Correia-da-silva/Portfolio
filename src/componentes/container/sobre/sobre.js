@@ -10,7 +10,7 @@ function Sobre() {
                 por técnologia e é por esse motivo <br></br>que decidi trilhar o caminho
                 da programação. <br></br><br></br><br></br> Trabalhei com projetos envolvendo
                 gestão comercial, <br></br>API's  e banco de dados. 
-                Atualmente estou cursando <br></br>análise e 
+                Atualmente estou cursando <br></br>análise e desenvolvimento de sistemas [ADS] <br></br>
                 e focando no desenvolvimento FullStack.</p>
                 <img src={Imagem} alt="Minha Imagem" className='imagem-sobre' />
                 <img src={Imagem_eu} alt="Minha Imagem" className='imagem-eu' />
