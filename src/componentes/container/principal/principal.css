@@ -60,22 +60,55 @@
 
 .in{
     margin-left: 200px;
-     
+    box-shadow: 0 0 10px rgba(33, 226, 200, 0.8);
+    width: 30px;
+    padding: 5px 5px;
 }
+
+.in:hover{
+    background-color: rgb(67, 146, 136);
+    border-radius: 10px ;
+    width: 32px;
+    padding: 5px 5px;
+    
+}
+
 
 
 
 
 .instagram{
     margin-left: 250px;
-    margin-top: -30px;
+    margin-top: -42px;
+    box-shadow: 0 0 10px rgba(33, 226, 200, 0.8);
+    width: 30px;
+    padding: 5px 5px;
 }
 
+.instagram:hover{
+    background-color: rgb(67, 146, 136);
+    border-radius: 10px ;
+    width: 32px;
+    padding: 5px 5px;
+    
+}
 
 
 .github{
     margin-left: 300px;
-    margin-top: -33px;
+    margin-top: -42px;
+    box-shadow: 0 0 10px rgba(33, 226, 200, 0.8);
+    width: 30px;
+    padding: 5px 5px;
+}
+
+.github:hover{
+    background-color: rgb(63, 131, 122);
+    border-radius: 10px ;
+    width: 32px;
+    padding: 5px 5px;
+    
+    
 }
 
 
@@ -112,15 +145,21 @@
     .in{
         margin-top: 20px;
         margin-left: 50px;
+        
     }
+
 
     .instagram{
         margin-left: 105px;
     }
 
+   
+
     .github{
         margin-left: 160px;
     }
+
+   
 
   
 }
