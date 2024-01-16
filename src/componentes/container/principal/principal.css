@@ -78,30 +78,9 @@
 
 
 
-
-.instagram{
-    margin-left: 251px;
-    margin-top: -42px;
-    box-shadow: 0 0 10px rgba(33, 226, 200, 0.8);
-    width: 28px;
-    padding: 5px 5px;
-    border-radius: 10px;
-    
-    
-}
-
-.instagram:hover{
-    background-color: rgb(67, 146, 136);
-    border-radius: 10px ;
-    width: 30px;
-    padding: 5px 5px;
-    
-}
-
-
 .github{
-    margin-left: 300px;
-    margin-top: -42px;
+    margin-left: 267px;
+    margin-top: -44px;
     box-shadow: 0 0 10px rgba(33, 226, 200, 0.8);
     width: 30px;
     padding: 5px 5px;
@@ -154,15 +133,10 @@
         
     }
 
-
-    .instagram{
-        margin-left: 105px;
-    }
-
    
 
     .github{
-        margin-left: 160px;
+        margin-left: 110px;
     }
 
    
