@@ -25,7 +25,7 @@ function Projetos () {
                 <div className="projeto1">
                 <img src={Imagem2} className="imagem-projeto" alt="img" />
                     <h2 className="titulo-projetos">Portfólio</h2>
-                    <p className="p-projetos"> Esta aplicação web tem a capacidade de estimar uma quantidade  aproximada de material de construção!</p> <br></br>
+                    <p className="p-projetos">Meu portfólio desenvolvido com as tecnologias atuais, sinta-se a <br></br>vontade para visita-lo.</p> <br></br>
                     <p className="p-links">Repositório: <Link to="https://github.com/Leonardo-Correia-da-silva/Portfolio" target="_blank" style={{  textDecoration: 'none'  }} > <span className="click" > Clique aqui </span> </Link> </p>
                     <p className="p-links">Aplicação no ar: <Link style={{  textDecoration: 'none'  }}>  <span className="click">Você já está aqui</span> </Link> </p>
                 </div>
