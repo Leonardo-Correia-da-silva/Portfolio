@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 import "./projetos.css"
 import Imagem1 from '../../../timezone.png';
-import Imagem2 from '../../../projeto1.png';
-import Imagem3 from '../../../portfolio.png';
+import Imagem2 from '../../../portfolio.png';
+import Imagem3 from '../../../biuld.png';
 
 
 
